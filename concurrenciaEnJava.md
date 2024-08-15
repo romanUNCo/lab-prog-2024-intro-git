@@ -1,0 +1,4 @@
+# Concurrencia en Java - Introducción
+Los semáforos son un mecanismo de sincronización en Java que se utiliza para controlar el acceso a recursos compartidos. Un `Semaphore` mantiene un contador que permite gestionar la cantidad de permisos disponibles para los hilos que intentan acceder al recurso. 
+
+A diferencia de `synchronized` y `Lock`, un semáforo puede permitir que varios hilos accedan simultáneamente a un recurso limitado, dependiendo del número de permisos configurados. Es particularmente útil en escenarios donde se debe controlar el acceso concurrente a un conjunto limitado de recursos.
